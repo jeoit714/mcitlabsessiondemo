@@ -13,11 +13,6 @@ output "lowercase_string" {
   value = lower(var.original_string)
 }
 
-# Function 3: Lowercase the string
-output "lowercase_string" {
-  value = lower(var.original_string)
-}
-
 # Function 4: Replace "jeo" with "saint-louis"
 output "replaced_string" {
   value = replace(var.original_string, "Montreal College Information Technology", "McGill University")
