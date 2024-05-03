@@ -1,12 +1,12 @@
-variable "travel_string" {
-  default = "haiti jamaica brezil niageria grace"
+variable "travel_liste" {
+  default = "haiti", "jamaica", "brezil", "niageria", "grace"
 
   output "join_countries" {
-  value = join("+", var.country_list)
+  value = join("+", var.travel_list)
 }
 
 locals {
-  contains_canada = contains(var.travel), "canada")
+  contains_canada = contains(var.travel_liste), "canada")
 }
 
 output "string_contains_canada" {
