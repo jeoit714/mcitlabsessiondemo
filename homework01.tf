@@ -1,8 +1,8 @@
 variable "travel_string" {
   default = "haiti jamaica brezil niageria grace"
 
-  output "replaced_string" {
-  value = replace(var.travel_string, " ", "+")
+  output "join_countries" {
+  value = join("+", var.country_list)
 }
 
 locals {
