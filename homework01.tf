@@ -3,7 +3,7 @@ variable "travel_liste" {
 
 }
 
-  output "join_countries" {
+  output "join_travel" {
   value = join("+", var.travel_list)
 
 }
