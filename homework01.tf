@@ -30,4 +30,10 @@ output "trimmed_string" {
 
   output "concatenated_string" {
   value = "${trim("$var.canada_string," ")}${canada_string}"
+}variable "upperlow_string" {
+  default = "upperLOWER"
+}
+ 
+output "UPPERlower_string" {
+  value = replace(var.upperlow_string, "upperLOWER", "UPPERlower")
 }
