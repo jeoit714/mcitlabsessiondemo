@@ -1,9 +1,11 @@
 variable "travel_liste" {
   default = "haiti" "jamaica" "brezil" "niageria" "grace"
+
 }
 
   output "join_countries" {
   value = join("+", var.travel_list)
+
 }
 
 locals {
