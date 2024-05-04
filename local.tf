@@ -9,6 +9,6 @@ value="abracadabramcit"
 output "secondprint"{
 value = local.forum
 }
-output "print"{
+output "finalprint"{
 value="montreal"
 }
