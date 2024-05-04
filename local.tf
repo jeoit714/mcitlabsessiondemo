@@ -4,11 +4,11 @@ locals{
 city="montreal"
   }
 output "printfirst"{
-value="local.firstname"
+value="locals.firstname"
 }
 output "printlast"{
-value = local.lastname
+value = locals.lastname
 }
 output "printcity"{
-value="local.city"
+value="locals.city"
 }
