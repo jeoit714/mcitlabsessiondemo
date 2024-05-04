@@ -1,14 +1,14 @@
 locals{
-  servicename="abracadabra"
-  forum="abracadabramcit"
-where="city"
+  firstname="marie-nicole"
+  lastname="servius"
+city="montreal"
   }
-output "print"{
-value="abracadabramcit"
+output "printfirst"{
+value="local.firstname"
 }
-output "secondprint"{
-value = local.forum
+output "printlast"{
+value = local.lastname
 }
-output "finalprint"{
-value="montreal"
+output "printcity"{
+value="local.city"
 }
