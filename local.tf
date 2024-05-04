@@ -1,10 +1,10 @@
-locals {
-name="jeo"
-length=length(local.name)
+locals{
+  servicename="abracadabra"
+  forum="abracadabramcit"
+  }
+output "print"{
+value="abracadabramcit"
 }
-output "print" {
-value = local.name
-}
-output "lengthname" {
-value = local.name
+output "secondprint"{
+value = local.forum
 }
