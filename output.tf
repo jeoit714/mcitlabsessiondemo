@@ -7,3 +7,6 @@ value=var.year
 output "check_output"{
 value=var.check
 }
+output "sporthiverslist"{
+value=[for sport in local.sporthiverslist:sport]
+}
