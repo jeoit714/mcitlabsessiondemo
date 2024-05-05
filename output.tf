@@ -4,4 +4,6 @@ value=var.company_name
 output "year_number_output"
 value=var.year
 }
-output "
+output "check_output"{
+value=var.check
+}
