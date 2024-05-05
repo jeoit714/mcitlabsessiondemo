@@ -33,7 +33,7 @@ variable "cross_tenant_replication_enabled"{
 }
 variable "company_name"{
 type=string
-default=happysnap
+default="happysnap"
 }
 variable "year"{
 type=number
