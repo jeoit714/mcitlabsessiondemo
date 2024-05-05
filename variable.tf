@@ -38,8 +38,13 @@ default=happysnap
 variable "year"{
 type=number
 default=1994
+}
 variable "environment"{
  type=string
  default="staging"
+}
+variable "check"{
+type=bool
+default=true
 }
 
