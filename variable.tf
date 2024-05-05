@@ -31,8 +31,15 @@ variable "cross_tenant_replication_enabled"{
  type=bool
  default=false
 }
-
+variable "company_name"{
+type=string
+default=happysnap
+}
+variable "year"{
+type=number
+default=1994
 variable "environment"{
  type=string
  default="staging"
 }
+
