@@ -16,3 +16,4 @@ value = local.city
 output "printlength"{
 value = local.lengthfirst
 }
+sporthiverslist=["icehockey","ski","snowboard"]
