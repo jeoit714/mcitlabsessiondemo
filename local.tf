@@ -5,6 +5,7 @@ city="montreal"
 lengthfirst=length(local.firstname)
 sporthiverslist=["icehockey","ski","snowboard"]
 totalgrade=["150","150","150"]
+cloudlist=["aws","azur","gcp"]
   }
 output "printfirst"{
 value = local.firstname
