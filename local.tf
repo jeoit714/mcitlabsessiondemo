@@ -3,6 +3,7 @@ locals{
   lastname="servius"
 city="montreal"
 lengthfirst=length(local.firstname)
+sporthiverslist=["icehockey","ski","snowboard"]
   }
 output "printfirst"{
 value = local.firstname
@@ -16,4 +17,3 @@ value = local.city
 output "printlength"{
 value = local.lengthfirst
 }
-sporthiverslist=["icehockey","ski","snowboard"]
