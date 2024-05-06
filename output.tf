@@ -16,7 +16,7 @@ for 2nd element in -->inside the list variable winterlistOfSports--->"ski" 2nd e
 for 3rd element in -->inside the list variable winterlistOfSports--->"snowboard" 3rd element
 */
 output "game_list"{
-value=[for ps5 game in var.game_list]
+value=[for ps5game in var.game_list]
 }
 /*
 for 1st element in -->inside the list variable winterlistOfSports--->"fifa"1st element
