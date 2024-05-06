@@ -28,3 +28,4 @@ value=sum([for grade in local.totalgrade:tonumber(grade)])
 }
 output "check_azur"{
 value=local.cloud_azur?"azure is part of could list" :"azure is not part od could list"
+}
