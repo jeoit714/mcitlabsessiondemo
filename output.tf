@@ -24,5 +24,5 @@ for 2nd element in -->inside the list variable winterlistOfSports--->"nba" 2nd e
 for 3rd element in -->inside the list variable winterlistOfSports--->"nhl" 3rd element
 */
 output "sumofgrade"{
-value=sum ([for grade in local.totalgrade:tonumber(grade)])
+value=sum([for grade in local.totalgrade:tonumber(grade)])
 }
