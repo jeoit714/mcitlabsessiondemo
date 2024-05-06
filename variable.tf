@@ -50,5 +50,5 @@ default=true
 variable "game_list" {
 type=list(string)
 description="description of the list variable"
-default=["item1","item2","item3"]
+default=["fifa","nba","nhl"]
 }
