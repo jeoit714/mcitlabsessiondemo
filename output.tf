@@ -12,6 +12,6 @@ value=[for sport in local.sporthiverslist:sport]
 }
 /*
 for 1st element in -->inside the list variable winterlistOfSports--->"icehockey"1st element
-for 2nd element in -->inside the list variable winterlistOfSports--->"snowboarding" 2nd element
-for 3rd element in -->inside the list variable winterlistOfSports--->"iceskating" 3rd element
+for 2nd element in -->inside the list variable winterlistOfSports--->"ski" 2nd element
+for 3rd element in -->inside the list variable winterlistOfSports--->"snowboard" 3rd element
 */
