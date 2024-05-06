@@ -26,3 +26,5 @@ for 3rd element in -->inside the list variable winterlistOfSports--->"nhl" 3rd e
 output "sumofgrade"{
 value=sum([for grade in local.totalgrade:tonumber(grade)])
 }
+output "check_azur"{
+value=containslocal.cloud_azur?"azure is part of could list" :azure is not part od could list"
